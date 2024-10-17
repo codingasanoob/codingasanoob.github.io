@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4th Project</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200&display=swap");
+    </style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins";
+      }
+
+      header {
+        position: sticky;
+        top: 0px;
+      }
+
+      nav {
+        background-color: purple;
+        font-weight: bolder;
+        font-size: x-large;
+      }
+
+      ul {
+        list-style: none;
+        padding: 10px;
+      }
+
+      li {
+        display: inline;
+        padding: 15px;
+      }
+
+      ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      li:first-child {
+        padding-left: 10px;
+      }
+
+      /* Content */
+      .content {
+      }
+
+      /* Container*/
+      .container {
+        border: 1px solid black;
+        width: 95vw;
+        height: 95vh;
+        margin: 10px auto;
+        display: flex;
+      }
+
+      /* Boxes */
+      .box {
+        border: 1px solid black;
+        width: 30vw;
+        height: 30vw;
+        margin: auto;
+      }
+
+      .container2 {
+        border: 1px solid black;
+        width: 85vw;
+        height: 18vw;
+        margin: auto;
+        border-radius: 50px;
+      }
+
+      p {
+        /* padding: 10px 35%; */
+        margin: auto;
+        margin-top: 80px;
+        width: 250px;
+        height: 18vw;
+        font-weight: bold;
+        font-size: x-large;
+      }
+
+      .logo{
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        height: 200px;
+        width: 200px;
+      }
+
+      .navlogo {
+        width: 30px;
+        /* border: 1px solid; */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Gryffindor</a></li>
+          <li><a href="#">Hogsmeade</a></li>
+          <li><a href="#">Marauders Map</a></li>
+          <li><a href="#">Hermoine</a></li>
+          <li>
+            <a href="#"
+              >Expecto Patronum
+              <img
+                class="navlogo"
+                src="https://res.cloudinary.com/dh7o3yp7y/image/upload/v1729176426/download-removebg-preview-removebg-preview_1_w4e4ga.png"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+
+      <div class="container2">
+        <p>Welcome to my site.</p>
+      </div>
+    </div>
+
+    <footer>
+      <img
+        class="logo"
+        src="https://res.cloudinary.com/dh7o3yp7y/image/upload/v1729154670/3621225d184277e61710edaeba340a45-removebg-preview_ow2rhg.png"
+        alt="logo"
+      />
+    </footer>
+  </body>
+</html>
